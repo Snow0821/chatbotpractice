@@ -12,7 +12,7 @@ OpenRouter API를 사용하는 간단한 챗봇입니다. Vercel에 바로 배�
 | 이름 | 필수 | 설명 |
 | --- | --- | --- |
 | `OPENROUTER_API_KEY` | 예 | OpenRouter API 키 |
-| `OPENROUTER_MODEL` | 아니오 | 사용할 모델 ID (기본값: `openrouter/auto`, 예: `openai/gpt-4o-mini`) |
+| `OPENROUTER_MODEL` | 아니오 | 사용할 모델 ID (기본값: `openrouter/free` — 사용 가능한 무료 모델로 자동 라우팅, 예: `google/gemma-4-31b-it:free`) |
 
 Vercel 대시보드 → Project → Settings → Environment Variables 에서 설정한 뒤 재배포하세요.
 

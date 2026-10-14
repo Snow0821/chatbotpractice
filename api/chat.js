@@ -2,7 +2,7 @@
 // API 키는 서버에서만 사용되므로 클라이언트에 노출되지 않습니다.
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const DEFAULT_MODEL = "openrouter/auto";
+const DEFAULT_MODEL = "openrouter/free";
 const SYSTEM_PROMPT = "You are a helpful, friendly assistant. Answer in the user's language.";
 const MAX_HISTORY = 20;
 
